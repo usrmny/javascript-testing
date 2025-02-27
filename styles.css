@@ -68,6 +68,8 @@ ul{
 li {
     border:2px solid black;
     list-style-type: none;
+    font-family: Impact;
+    font-size: 25px;
 }
 /*
 li:first-of-type{
@@ -99,5 +101,26 @@ li:nth-of-type(2){
 #container2{
     height: 100vh;
     width: 100%;
-    background: white;
+    background: lightgrey;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border:3px solid black;
+}
+
+#drag {
+    background: green;
+    position: relative;
+    top: 70%;
+    left: 50%;
+}
+
+#click {
+    background: purple;
+    position: relative;
+    top: 20%;
+    left: 50%;
+
 }
